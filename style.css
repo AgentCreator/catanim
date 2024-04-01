@@ -1,0 +1,47 @@
+body {
+	background-color: black;
+	display: grid;
+	place-content: center;
+	height: 1000px;
+  
+}
+
+.cube {
+	margin-top: 200px;
+	width: 750px;
+	height: 750px;
+
+	background-color: white;
+	animation: hihihaha 5.2s;
+	animation-iteration-count: infinite;
+	animation-delay: 0.5s;
+	animation-timing-function: cubic-bezier(.34, 1.56, .64, 1);;
+	margin: 50px;
+	background-image: url(./msg-1001851684994-2424.jpg);
+}
+
+@keyframes hihihaha {
+	0%{
+		transform: translateY(-100px) rotate(0deg);
+	}
+	25% {
+		transform: translateY(750px) rotate(90deg);
+	}
+
+	50%{
+		transform: translateY(-100px) rotate(180deg);
+	}
+
+	75% {
+		transform: translateY(750px) rotate(270deg);
+	}
+
+	100%{
+		transform: translateY(-100px) rotate(360deg);
+	}
+}
+
+.column1 {
+	display: inline-flex;
+	margin-left: 100px;
+}
